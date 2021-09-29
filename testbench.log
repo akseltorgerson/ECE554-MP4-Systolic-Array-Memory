@@ -1,0 +1,484 @@
+# Reading pref.tcl
+# Loading project minilab4
+# Compile of fifo.sv was successful.
+# Compile of memA.sv was successful.
+# Compile of memB.sv was successful.
+# Compile of systolic_array.sv was successful.
+# Compile of systolic_array_memory_tb.sv was successful.
+# Compile of systolic_array_tb.sv was successful.
+# Compile of systolic_array_tc.svh was successful.
+# Compile of tpumac.sv was successful.
+# Compile of transpose_fifo.sv was successful.
+# 9 compiles, 0 failed with no errors.
+vsim -gui work.systolic_array_memory_tb
+# vsim -gui work.systolic_array_memory_tb 
+# Start time: 22:10:28 on Sep 26,2021
+# Loading sv_std.std
+# Loading work.systolic_array_memory_tb_sv_unit
+# Loading work.systolic_array_memory_tb
+# Loading work.systolic_array
+# Loading work.memA
+# Loading work.memB
+# Loading work.tpumac
+# Loading work.transpose_fifo
+# Loading work.fifo
+# WARNING: No extended dataflow license exists
+# Load canceled
+quit -sim
+# End time: 22:10:47 on Sep 26,2021, Elapsed time: 0:00:19
+# Errors: 0, Warnings: 2
+vsim -gui work.systolic_array_memory_tb
+# vsim -gui work.systolic_array_memory_tb 
+# Start time: 22:10:58 on Sep 26,2021
+# Loading sv_std.std
+# Loading work.systolic_array_memory_tb_sv_unit
+# Loading work.systolic_array_memory_tb
+# Loading work.systolic_array
+# Loading work.memA
+# Loading work.memB
+# Loading work.tpumac
+# Loading work.transpose_fifo
+# Loading work.fifo
+# WARNING: No extended dataflow license exists
+run -all
+# No errors, testcase passed
+# 
+# No errors, testcase passed
+# 
+# No errors, testcase passed
+# 
+# No errors, testcase passed
+# 
+# No errors, testcase passed
+# 
+# No errors, testcase passed
+# 
+# No errors, testcase passed
+# 
+# No errors, testcase passed
+# 
+# No errors, testcase passed
+# 
+# No errors, testcase passed
+# 
+# No errors, testcase passed
+# 
+# No errors, testcase passed
+# 
+# No errors, testcase passed
+# 
+# No errors, testcase passed
+# 
+# No errors, testcase passed
+# 
+# No errors, testcase passed
+# 
+# No errors, testcase passed
+# 
+# No errors, testcase passed
+# 
+# No errors, testcase passed
+# 
+# No errors, testcase passed
+# 
+# No errors, testcase passed
+# 
+# No errors, testcase passed
+# 
+# No errors, testcase passed
+# 
+# No errors, testcase passed
+# 
+# No errors, testcase passed
+# 
+# No errors, testcase passed
+# 
+# No errors, testcase passed
+# 
+# No errors, testcase passed
+# 
+# No errors, testcase passed
+# 
+# No errors, testcase passed
+# 
+# No errors, testcase passed
+# 
+# No errors, testcase passed
+# 
+# No errors, testcase passed
+# 
+# No errors, testcase passed
+# 
+# No errors, testcase passed
+# 
+# No errors, testcase passed
+# 
+# No errors, testcase passed
+# 
+# No errors, testcase passed
+# 
+# No errors, testcase passed
+# 
+# No errors, testcase passed
+# 
+# No errors, testcase passed
+# 
+# No errors, testcase passed
+# 
+# No errors, testcase passed
+# 
+# No errors, testcase passed
+# 
+# No errors, testcase passed
+# 
+# No errors, testcase passed
+# 
+# No errors, testcase passed
+# 
+# No errors, testcase passed
+# 
+# No errors, testcase passed
+# 
+# No errors, testcase passed
+# 
+# No errors, testcase passed
+# 
+# No errors, testcase passed
+# 
+# No errors, testcase passed
+# 
+# No errors, testcase passed
+# 
+# No errors, testcase passed
+# 
+# No errors, testcase passed
+# 
+# No errors, testcase passed
+# 
+# No errors, testcase passed
+# 
+# No errors, testcase passed
+# 
+# No errors, testcase passed
+# 
+# No errors, testcase passed
+# 
+# No errors, testcase passed
+# 
+# No errors, testcase passed
+# 
+# No errors, testcase passed
+# 
+# No errors, testcase passed
+# 
+# No errors, testcase passed
+# 
+# No errors, testcase passed
+# 
+# No errors, testcase passed
+# 
+# No errors, testcase passed
+# 
+# No errors, testcase passed
+# 
+# No errors, testcase passed
+# 
+# No errors, testcase passed
+# 
+# No errors, testcase passed
+# 
+# No errors, testcase passed
+# 
+# No errors, testcase passed
+# 
+# No errors, testcase passed
+# 
+# No errors, testcase passed
+# 
+# No errors, testcase passed
+# 
+# No errors, testcase passed
+# 
+# No errors, testcase passed
+# 
+# No errors, testcase passed
+# 
+# No errors, testcase passed
+# 
+# No errors, testcase passed
+# 
+# No errors, testcase passed
+# 
+# No errors, testcase passed
+# 
+# No errors, testcase passed
+# 
+# No errors, testcase passed
+# 
+# No errors, testcase passed
+# 
+# No errors, testcase passed
+# 
+# No errors, testcase passed
+# 
+# No errors, testcase passed
+# 
+# No errors, testcase passed
+# 
+# No errors, testcase passed
+# 
+# No errors, testcase passed
+# 
+# No errors, testcase passed
+# 
+# No errors, testcase passed
+# 
+# No errors, testcase passed
+# 
+# No errors, testcase passed
+# 
+# No errors, testcase passed
+# 
+# No errors, testcase passed
+# 
+# ** Note: $stop    : C:/Users/front/OneDrive/Documents/GitHub/ece554-minilab4/systolic_array_memory_tb.sv(224)
+#    Time: 75500 ps  Iteration: 1  Instance: /systolic_array_memory_tb
+# Break in Module systolic_array_memory_tb at C:/Users/front/OneDrive/Documents/GitHub/ece554-minilab4/systolic_array_memory_tb.sv line 224
+restart -f
+run -all > testbench.log
+# ** UI-Msg: (vsim-4001) Incorrect number of arguments.
+# Usage: run [<timesteps> [<time_units>]] | -all | -continue | -next | -step | -over | -out | -init | -final
+quit -sim
+# End time: 22:11:50 on Sep 26,2021, Elapsed time: 0:00:52
+# Errors: 0, Warnings: 1
+# Compile of fifo.sv was successful.
+# Compile of memA.sv was successful.
+# Compile of memB.sv was successful.
+# Compile of systolic_array.sv was successful.
+# Compile of systolic_array_memory_tb.sv was successful.
+# Compile of systolic_array_tb.sv was successful.
+# Compile of systolic_array_tc.svh was successful.
+# Compile of tpumac.sv was successful.
+vsim -gui work.systolic_array_memory_tb
+# vsim -gui work.systolic_array_memory_tb 
+# Start time: 22:12:00 on Sep 26,2021
+# Loading sv_std.std
+# Loading work.systolic_array_memory_tb_sv_unit
+# Loading work.systolic_array_memory_tb
+# Loading work.systolic_array
+# Loading work.memA
+# Loading work.memB
+# Loading work.tpumac
+# Loading work.transpose_fifo
+# Loading work.fifo
+# Compile of transpose_fifo.sv was successful.
+# 9 compiles, 0 failed with no errors.
+run -all > testbench.log
+# ** UI-Msg: (vsim-4001) Incorrect number of arguments.
+# Usage: run [<timesteps> [<time_units>]] | -all | -continue | -next | -step | -over | -out | -init | -final
+run -all 
+# No errors, testcase passed
+# 
+# No errors, testcase passed
+# 
+# No errors, testcase passed
+# 
+# No errors, testcase passed
+# 
+# No errors, testcase passed
+# 
+# No errors, testcase passed
+# 
+# No errors, testcase passed
+# 
+# No errors, testcase passed
+# 
+# No errors, testcase passed
+# 
+# No errors, testcase passed
+# 
+# No errors, testcase passed
+# 
+# No errors, testcase passed
+# 
+# No errors, testcase passed
+# 
+# No errors, testcase passed
+# 
+# No errors, testcase passed
+# 
+# No errors, testcase passed
+# 
+# No errors, testcase passed
+# 
+# No errors, testcase passed
+# 
+# No errors, testcase passed
+# 
+# No errors, testcase passed
+# 
+# No errors, testcase passed
+# 
+# No errors, testcase passed
+# 
+# No errors, testcase passed
+# 
+# No errors, testcase passed
+# 
+# No errors, testcase passed
+# 
+# No errors, testcase passed
+# 
+# No errors, testcase passed
+# 
+# No errors, testcase passed
+# 
+# No errors, testcase passed
+# 
+# No errors, testcase passed
+# 
+# No errors, testcase passed
+# 
+# No errors, testcase passed
+# 
+# No errors, testcase passed
+# 
+# No errors, testcase passed
+# 
+# No errors, testcase passed
+# 
+# No errors, testcase passed
+# 
+# No errors, testcase passed
+# 
+# No errors, testcase passed
+# 
+# No errors, testcase passed
+# 
+# No errors, testcase passed
+# 
+# No errors, testcase passed
+# 
+# No errors, testcase passed
+# 
+# No errors, testcase passed
+# 
+# No errors, testcase passed
+# 
+# No errors, testcase passed
+# 
+# No errors, testcase passed
+# 
+# No errors, testcase passed
+# 
+# No errors, testcase passed
+# 
+# No errors, testcase passed
+# 
+# No errors, testcase passed
+# 
+# No errors, testcase passed
+# 
+# No errors, testcase passed
+# 
+# No errors, testcase passed
+# 
+# No errors, testcase passed
+# 
+# No errors, testcase passed
+# 
+# No errors, testcase passed
+# 
+# No errors, testcase passed
+# 
+# No errors, testcase passed
+# 
+# No errors, testcase passed
+# 
+# No errors, testcase passed
+# 
+# No errors, testcase passed
+# 
+# No errors, testcase passed
+# 
+# No errors, testcase passed
+# 
+# No errors, testcase passed
+# 
+# No errors, testcase passed
+# 
+# No errors, testcase passed
+# 
+# No errors, testcase passed
+# 
+# No errors, testcase passed
+# 
+# No errors, testcase passed
+# 
+# No errors, testcase passed
+# 
+# No errors, testcase passed
+# 
+# No errors, testcase passed
+# 
+# No errors, testcase passed
+# 
+# No errors, testcase passed
+# 
+# No errors, testcase passed
+# 
+# No errors, testcase passed
+# 
+# No errors, testcase passed
+# 
+# No errors, testcase passed
+# 
+# No errors, testcase passed
+# 
+# No errors, testcase passed
+# 
+# No errors, testcase passed
+# 
+# No errors, testcase passed
+# 
+# No errors, testcase passed
+# 
+# No errors, testcase passed
+# 
+# No errors, testcase passed
+# 
+# No errors, testcase passed
+# 
+# No errors, testcase passed
+# 
+# No errors, testcase passed
+# 
+# No errors, testcase passed
+# 
+# No errors, testcase passed
+# 
+# No errors, testcase passed
+# 
+# No errors, testcase passed
+# 
+# No errors, testcase passed
+# 
+# No errors, testcase passed
+# 
+# No errors, testcase passed
+# 
+# No errors, testcase passed
+# 
+# No errors, testcase passed
+# 
+# No errors, testcase passed
+# 
+# No errors, testcase passed
+# 
+# No errors, testcase passed
+# 
+# ** Note: $stop    : C:/Users/front/OneDrive/Documents/GitHub/ece554-minilab4/systolic_array_memory_tb.sv(224)
+#    Time: 75500 ps  Iteration: 1  Instance: /systolic_array_memory_tb
+# Break in Module systolic_array_memory_tb at C:/Users/front/OneDrive/Documents/GitHub/ece554-minilab4/systolic_array_memory_tb.sv line 224
+
+
